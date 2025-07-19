@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="dashs_camp_mod"
+version="1.0.0"
+displayName="Dash's Camp Mod"
+displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="MCreator"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.dashs_camp_mod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.5.82,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.dashs_camp_mod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.5]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

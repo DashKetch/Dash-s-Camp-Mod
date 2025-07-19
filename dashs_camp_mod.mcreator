@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "FunctionalCamping",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "functional_camping",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WhiteFabric",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fabric",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dashs_camp_mod/items/white_fabric.json",
+          "src/main/java/net/mcreator/dashscampmod/item/WhiteFabricItem.java",
+          "src/main/resources/assets/dashs_camp_mod/models/item/white_fabric.json"
+        ]
+      }
+    },
+    {
+      "name": "WhiteFabricCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_fabric_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dashs_camp_mod/recipe/white_fabric_craft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.dashs_camp_mod.functional_camping": "Functional Camping",
+      "item.dashs_camp_mod.white_fabric": "White Fabric"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModTabs.java",
+      "src/main/java/net/mcreator/dashscampmod/DashsCampModMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "dashs_camp_mod",
+    "modName": "Dash\u0027s Camp Mod",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.5",
+    "modElementsPackage": "net.mcreator.dashscampmod"
+  },
+  "mcreatorVersion": 202500228610
+}
