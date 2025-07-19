@@ -23,18 +23,6 @@
           "src/main/resources/assets/dashs_camp_mod/models/item/white_fabric.json"
         ]
       }
-    },
-    {
-      "name": "WhiteFabricCraft",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_fabric_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/dashs_camp_mod/recipe/white_fabric_craft.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],

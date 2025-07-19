@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "white-fabric-texture",
+    "texture": "white-fabric-texture64x64",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
