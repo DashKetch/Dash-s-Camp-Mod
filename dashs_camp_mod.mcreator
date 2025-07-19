@@ -23,16 +23,55 @@
           "src/main/resources/assets/dashs_camp_mod/models/item/white_fabric.json"
         ]
       }
+    },
+    {
+      "name": "FabricCraftWhite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fabric_craft_white",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/dashs_camp_mod/recipe/fabric_craft_white.json",
+          "src/main/resources/data/dashs_camp_mod/advancement/recipes/fabric_craft_white.json"
+        ]
+      }
+    },
+    {
+      "name": "GrillCoal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grill_coal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dashs_camp_mod/models/item/grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/items/grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/grill_coal.json",
+          "src/main/java/net/mcreator/dashscampmod/block/GrillCoalBlock.java",
+          "src/main/java/net/mcreator/dashscampmod/block/entity/GrillCoalBlockEntity.java",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/grill_coal.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:GrillCoal"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:GrillCoal"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
       "item_group.dashs_camp_mod.functional_camping": "Functional Camping",
-      "item.dashs_camp_mod.white_fabric": "White Fabric"
+      "item.dashs_camp_mod.white_fabric": "White Fabric",
+      "item.dashs_camp_mod.grill_coal": "Grill Coal"
     }
   },
   "metadata": {
@@ -41,6 +80,8 @@
       "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModTabs.java",
       "src/main/java/net/mcreator/dashscampmod/DashsCampModMod.java",
       "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModBlocks.java",
+      "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModBlockEntities.java",
       "src/main/java/net/mcreator/dashscampmod/init/DashsCampModModItems.java"
     ]
   },

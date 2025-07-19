@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/coal_block",
+    "up": "minecraft:block/cauldron_top",
+    "north": "minecraft:block/coal_block",
+    "east": "minecraft:block/coal_block",
+    "south": "minecraft:block/coal_block",
+    "west": "minecraft:block/coal_block",
+    "particle": "minecraft:block/raw_iron_block"
+  },
+  "render_type": "cutout"
+}

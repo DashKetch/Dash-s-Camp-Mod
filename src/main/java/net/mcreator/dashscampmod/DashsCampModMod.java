@@ -20,6 +20,8 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.dashscampmod.init.DashsCampModModTabs;
 import net.mcreator.dashscampmod.init.DashsCampModModItems;
+import net.mcreator.dashscampmod.init.DashsCampModModBlocks;
+import net.mcreator.dashscampmod.init.DashsCampModModBlockEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -39,6 +41,8 @@ public class DashsCampModMod {
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
 
+		DashsCampModModBlocks.REGISTRY.register(modEventBus);
+		DashsCampModModBlockEntities.REGISTRY.register(modEventBus);
 		DashsCampModModItems.REGISTRY.register(modEventBus);
 
 		DashsCampModModTabs.REGISTRY.register(modEventBus);

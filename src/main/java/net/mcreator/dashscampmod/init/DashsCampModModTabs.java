@@ -19,5 +19,6 @@ public class DashsCampModModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> FUNCTIONAL_CAMPING = REGISTRY.register("functional_camping",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dashs_camp_mod.functional_camping")).icon(() -> new ItemStack(Items.FISHING_ROD)).displayItems((parameters, tabData) -> {
 				tabData.accept(DashsCampModModItems.WHITE_FABRIC.get());
+				tabData.accept(DashsCampModModBlocks.GRILL_COAL.get().asItem());
 			}).build());
 }

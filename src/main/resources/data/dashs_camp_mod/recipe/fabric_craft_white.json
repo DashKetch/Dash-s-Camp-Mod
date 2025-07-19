@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "minecraft:string",
+    "c": "minecraft:white_wool"
+  },
+  "result": {
+    "id": "dashs_camp_mod:white_fabric",
+    "count": 1
+  }
+}
