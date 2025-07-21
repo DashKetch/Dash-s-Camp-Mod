@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "rightmultiblock-2:default",
+    "customModelName": "leftmultiblock-1:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Right Grill",
+    "name": "Left Grill Structure",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,14 +48,10 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:FunctionalCamping"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:LeftMultiBlock1"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

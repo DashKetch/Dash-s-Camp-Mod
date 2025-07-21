@@ -17,10 +17,10 @@ import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.dashscampmod.block.entity.BottomMultiBlock3BlockEntity;
+import net.mcreator.dashscampmod.block.entity.CenterMultiBlockCore3BlockEntity;
 
-public class BottomMultiBlock3Block extends Block implements EntityBlock {
-	public BottomMultiBlock3Block(BlockBehaviour.Properties properties) {
+public class CenterMultiBlockCore3Block extends Block implements EntityBlock {
+	public CenterMultiBlockCore3Block(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -47,7 +47,7 @@ public class BottomMultiBlock3Block extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new BottomMultiBlock3BlockEntity(pos, state);
+		return new CenterMultiBlockCore3BlockEntity(pos, state);
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class BottomMultiBlock3Block extends Block implements EntityBlock {
 	@Override
 	public void affectNeighborsAfterRemoval(BlockState state, ServerLevel world, BlockPos pos, boolean isMoving) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
-		if (blockEntity instanceof BottomMultiBlock3BlockEntity be) {
+		if (blockEntity instanceof CenterMultiBlockCore3BlockEntity be) {
 			Containers.dropContents(world, pos, be);
 			world.updateNeighbourForOutputSignal(pos, this);
 		}
@@ -75,7 +75,7 @@ public class BottomMultiBlock3Block extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof BottomMultiBlock3BlockEntity be)
+		if (tileentity instanceof CenterMultiBlockCore3BlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;

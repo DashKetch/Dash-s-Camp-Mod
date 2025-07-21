@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "dashs_camp_mod:blocks/left_multi_block_core_1",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dashs_camp_mod:left_multi_block_1"
+        }
+      ]
+    }
+  ]
+}

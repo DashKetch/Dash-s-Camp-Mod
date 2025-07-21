@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dashs_camp_mod:item/leftmultiblock-1_icon"
+  },
+  "render_type": "translucent"
+}

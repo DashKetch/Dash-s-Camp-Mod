@@ -9,13 +9,13 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "rightmultiblock-2:default",
+    "customModelName": "bottommultiblock-3:default",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "animations": [],
-    "itemTexture": "leftmultiblock-1_icon",
+    "itemTexture": "bottommultiblock-3_icon",
     "particleTexture": "minecraft:smooth_stone",
     "blockSetType": "OAK",
     "tintType": "No tint",
@@ -36,7 +36,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Right Grill",
+    "name": "Bottom Grill Structure",
     "specialInformation": {
       "fixedValue": []
     },
@@ -48,14 +48,10 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:FunctionalCamping"
-      }
-    ],
+    "creativeTabs": [],
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CenterMultiBlock3"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

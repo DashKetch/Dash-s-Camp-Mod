@@ -42,16 +42,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grill_coal",
+      "registry_name": "bottom_grill_coal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/dashs_camp_mod/models/item/grill_coal.json",
-          "src/main/resources/assets/dashs_camp_mod/items/grill_coal.json",
-          "src/main/resources/assets/dashs_camp_mod/models/block/grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/bottom_grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/bottom_grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/items/bottom_grill_coal.json",
+          "src/main/resources/assets/dashs_camp_mod/models/item/bottom_grill_coal.json",
           "src/main/java/net/mcreator/dashscampmod/block/GrillCoalBlock.java",
           "src/main/java/net/mcreator/dashscampmod/block/entity/GrillCoalBlockEntity.java",
-          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/grill_coal.json",
-          "src/main/resources/assets/dashs_camp_mod/blockstates/grill_coal.json"
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/bottom_grill_coal.json"
         ]
       }
     },
@@ -92,20 +92,74 @@
       }
     },
     {
-      "name": "BottomMultiBlock3",
+      "name": "LeftMultiBlockCore1",
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bottom_multi_block_3",
+      "registry_name": "left_multi_block_core_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/dashscampmod/block/BottomMultiBlock3Block.java",
-          "src/main/resources/assets/dashs_camp_mod/blockstates/bottom_multi_block_3.json",
-          "src/main/resources/assets/dashs_camp_mod/models/item/bottom_multi_block_3.json",
-          "src/main/resources/assets/dashs_camp_mod/items/bottom_multi_block_3.json",
-          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/bottom_multi_block_3.json",
-          "src/main/resources/assets/dashs_camp_mod/models/block/bottom_multi_block_3.json",
-          "src/main/java/net/mcreator/dashscampmod/block/entity/BottomMultiBlock3BlockEntity.java"
+          "src/main/resources/assets/dashs_camp_mod/models/item/left_multi_block_core_1.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/left_multi_block_core_1.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/left_multi_block_core_1.json",
+          "src/main/java/net/mcreator/dashscampmod/block/LeftMultiBlockCore1Block.java",
+          "src/main/resources/assets/dashs_camp_mod/items/left_multi_block_core_1.json",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/left_multi_block_core_1.json",
+          "src/main/java/net/mcreator/dashscampmod/block/entity/LeftMultiBlockCore1BlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RightMultiBlockCore2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_multi_block_core_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dashs_camp_mod/models/item/right_multi_block_core_2.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/right_multi_block_core_2.json",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/right_multi_block_core_2.json",
+          "src/main/resources/assets/dashs_camp_mod/items/right_multi_block_core_2.json",
+          "src/main/java/net/mcreator/dashscampmod/block/entity/RightMultiBlockCore2BlockEntity.java",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/right_multi_block_core_2.json",
+          "src/main/java/net/mcreator/dashscampmod/block/RightMultiBlockCore2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "CenterMultiBlock3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "center_multi_block_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dashs_camp_mod/models/item/center_multi_block_3.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/center_multi_block_3.json",
+          "src/main/resources/assets/dashs_camp_mod/items/center_multi_block_3.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/center_multi_block_3.json",
+          "src/main/java/net/mcreator/dashscampmod/block/CenterMultiBlock3Block.java",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/center_multi_block_3.json",
+          "src/main/java/net/mcreator/dashscampmod/block/entity/CenterMultiBlock3BlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "CenterMultiBlockCore3",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "center_multi_block_core_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/dashs_camp_mod/models/item/center_multi_block_core_3.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/center_multi_block_core_3.json",
+          "src/main/java/net/mcreator/dashscampmod/block/entity/CenterMultiBlockCore3BlockEntity.java",
+          "src/main/resources/assets/dashs_camp_mod/items/center_multi_block_core_3.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/center_multi_block_core_3.json",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/center_multi_block_core_3.json",
+          "src/main/java/net/mcreator/dashscampmod/block/CenterMultiBlockCore3Block.java"
         ]
       }
     }
@@ -114,6 +168,11 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:CenterMultiBlockCore3",
+      "~CUSTOM:CenterMultiBlock3",
+      "~CUSTOM:RightMultiBlockCore2",
+      "~CUSTOM:LeftMultiBlockCore1",
+      "~CUSTOM:RightMultiBlock2",
       "~CUSTOM:GrillCoal"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
@@ -125,10 +184,13 @@
     "en_us": {
       "item_group.dashs_camp_mod.functional_camping": "Functional Camping",
       "item.dashs_camp_mod.white_fabric": "White Fabric",
-      "item.dashs_camp_mod.grill_coal": "Center Grill",
       "item.dashs_camp_mod.left_multi_block_1": "Left Grill",
       "item.dashs_camp_mod.right_multi_block_2": "Right Grill",
-      "item.dashs_camp_mod.bottom_multi_block_3": "Bottom Grill"
+      "item.dashs_camp_mod.left_multi_block_core_1": "Left Grill Structure",
+      "item.dashs_camp_mod.right_multi_block_core_2": "Right Grill Structure",
+      "item.dashs_camp_mod.bottom_grill_coal": "Center Grill",
+      "item.dashs_camp_mod.center_multi_block_3": "Bottom Grill",
+      "item.dashs_camp_mod.center_multi_block_core_3": "Bottom Grill Structure"
     }
   },
   "metadata": {

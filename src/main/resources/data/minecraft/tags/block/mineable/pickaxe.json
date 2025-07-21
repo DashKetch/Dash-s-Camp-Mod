@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "dashs_camp_mod:grill_coal"
+    "dashs_camp_mod:center_multi_block_core_3",
+    "dashs_camp_mod:right_multi_block_2",
+    "dashs_camp_mod:center_multi_block_3",
+    "dashs_camp_mod:bottom_grill_coal",
+    "dashs_camp_mod:left_multi_block_core_1",
+    "dashs_camp_mod:right_multi_block_core_2"
   ]
 }

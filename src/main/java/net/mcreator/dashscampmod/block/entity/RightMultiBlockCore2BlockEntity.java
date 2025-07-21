@@ -22,11 +22,11 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class BottomMultiBlock3BlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class RightMultiBlockCore2BlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
-	public BottomMultiBlock3BlockEntity(BlockPos position, BlockState state) {
-		super(DashsCampModModBlockEntities.BOTTOM_MULTI_BLOCK_3.get(), position, state);
+	public RightMultiBlockCore2BlockEntity(BlockPos position, BlockState state) {
+		super(DashsCampModModBlockEntities.RIGHT_MULTI_BLOCK_CORE_2.get(), position, state);
 	}
 
 	@Override
@@ -70,7 +70,7 @@ public class BottomMultiBlock3BlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("bottom_multi_block_3");
+		return Component.literal("right_multi_block_core_2");
 	}
 
 	@Override
@@ -80,7 +80,7 @@ public class BottomMultiBlock3BlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Bottom Grill");
+		return Component.literal("Right Grill Structure");
 	}
 
 	@Override

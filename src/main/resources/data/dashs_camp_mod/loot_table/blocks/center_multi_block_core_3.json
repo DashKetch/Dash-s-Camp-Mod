@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "dashs_camp_mod:blocks/bottom_multi_block_3",
+  "random_sequence": "dashs_camp_mod:blocks/center_multi_block_core_3",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dashs_camp_mod:bottom_multi_block_3"
+          "name": "dashs_camp_mod:center_multi_block_3"
         }
       ]
     }
