@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bottommultiblock-3_texture"
+      },
+      "name": "default"
+    }
+  }
+}

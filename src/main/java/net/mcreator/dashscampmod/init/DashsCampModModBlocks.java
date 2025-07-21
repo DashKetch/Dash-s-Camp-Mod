@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.dashscampmod.block.RightMultiBlock2Block;
 import net.mcreator.dashscampmod.block.LeftMultiBlock1Block;
 import net.mcreator.dashscampmod.block.GrillCoalBlock;
+import net.mcreator.dashscampmod.block.BottomMultiBlock3Block;
 import net.mcreator.dashscampmod.DashsCampModMod;
 
 import java.util.function.Function;
@@ -21,6 +22,7 @@ public class DashsCampModModBlocks {
 	public static final DeferredBlock<Block> GRILL_COAL = register("grill_coal", GrillCoalBlock::new);
 	public static final DeferredBlock<Block> LEFT_MULTI_BLOCK_1 = register("left_multi_block_1", LeftMultiBlock1Block::new);
 	public static final DeferredBlock<Block> RIGHT_MULTI_BLOCK_2 = register("right_multi_block_2", RightMultiBlock2Block::new);
+	public static final DeferredBlock<Block> BOTTOM_MULTI_BLOCK_3 = register("bottom_multi_block_3", BottomMultiBlock3Block::new);
 
 	// Start of user code block custom blocks
 	// End of user code block custom blocks
