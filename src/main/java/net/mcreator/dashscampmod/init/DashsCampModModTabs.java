@@ -21,5 +21,6 @@ public class DashsCampModModTabs {
 				tabData.accept(DashsCampModModItems.WHITE_FABRIC.get());
 				tabData.accept(DashsCampModModBlocks.GRILL_COAL.get().asItem());
 				tabData.accept(DashsCampModModBlocks.LEFT_MULTI_BLOCK_1.get().asItem());
+				tabData.accept(DashsCampModModBlocks.RIGHT_MULTI_BLOCK_2.get().asItem());
 			}).build());
 }

@@ -1,22 +1,7 @@
 {
-  "parent": "dashs_camp_mod:block/grill_coal",
-  "display": {
-    "thirdperson": {
-      "rotation": [
-        10,
-        -45,
-        170
-      ],
-      "translation": [
-        0,
-        1.5,
-        -2.75
-      ],
-      "scale": [
-        0.375,
-        0.375,
-        0.375
-      ]
-    }
-  }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dashs_camp_mod:item/centermultiblock_icon"
+  },
+  "render_type": "translucent"
 }

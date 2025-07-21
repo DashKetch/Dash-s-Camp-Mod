@@ -17,10 +17,10 @@ import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.dashscampmod.block.entity.LeftMultiBlock1BlockEntity;
+import net.mcreator.dashscampmod.block.entity.RightMultiBlock2BlockEntity;
 
-public class LeftMultiBlock1Block extends Block implements EntityBlock {
-	public LeftMultiBlock1Block(BlockBehaviour.Properties properties) {
+public class RightMultiBlock2Block extends Block implements EntityBlock {
+	public RightMultiBlock2Block(BlockBehaviour.Properties properties) {
 		super(properties.sound(SoundType.METAL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -47,7 +47,7 @@ public class LeftMultiBlock1Block extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new LeftMultiBlock1BlockEntity(pos, state);
+		return new RightMultiBlock2BlockEntity(pos, state);
 	}
 
 	@Override
@@ -60,7 +60,7 @@ public class LeftMultiBlock1Block extends Block implements EntityBlock {
 	@Override
 	public void affectNeighborsAfterRemoval(BlockState state, ServerLevel world, BlockPos pos, boolean isMoving) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
-		if (blockEntity instanceof LeftMultiBlock1BlockEntity be) {
+		if (blockEntity instanceof RightMultiBlock2BlockEntity be) {
 			Containers.dropContents(world, pos, be);
 			world.updateNeighbourForOutputSignal(pos, this);
 		}
@@ -75,7 +75,7 @@ public class LeftMultiBlock1Block extends Block implements EntityBlock {
 	@Override
 	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
-		if (tileentity instanceof LeftMultiBlock1BlockEntity be)
+		if (tileentity instanceof RightMultiBlock2BlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
 		else
 			return 0;

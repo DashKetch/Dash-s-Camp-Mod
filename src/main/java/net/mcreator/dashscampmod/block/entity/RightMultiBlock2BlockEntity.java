@@ -22,11 +22,11 @@ import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;
 
-public class GrillCoalBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
-	private NonNullList<ItemStack> stacks = NonNullList.withSize(3, ItemStack.EMPTY);
+public class RightMultiBlock2BlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
-	public GrillCoalBlockEntity(BlockPos position, BlockState state) {
-		super(DashsCampModModBlockEntities.GRILL_COAL.get(), position, state);
+	public RightMultiBlock2BlockEntity(BlockPos position, BlockState state) {
+		super(DashsCampModModBlockEntities.RIGHT_MULTI_BLOCK_2.get(), position, state);
 	}
 
 	@Override
@@ -70,12 +70,7 @@ public class GrillCoalBlockEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("grill_coal");
-	}
-
-	@Override
-	public int getMaxStackSize() {
-		return 1;
+		return Component.literal("right_multi_block_2");
 	}
 
 	@Override
@@ -85,7 +80,7 @@ public class GrillCoalBlockEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Center Grill");
+		return Component.literal("Left Grill");
 	}
 
 	@Override
