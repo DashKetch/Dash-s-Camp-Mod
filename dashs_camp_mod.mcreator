@@ -71,6 +71,23 @@
           "src/main/resources/assets/dashs_camp_mod/models/block/left_multi_block_1.json"
         ]
       }
+    },
+    {
+      "name": "RightMultiBlock2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "right_multi_block_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/dashscampmod/block/RightMultiBlock2Block.java",
+          "src/main/resources/assets/dashs_camp_mod/items/right_multi_block_2.json",
+          "src/main/resources/assets/dashs_camp_mod/models/item/right_multi_block_2.json",
+          "src/main/resources/data/dashs_camp_mod/loot_table/blocks/right_multi_block_2.json",
+          "src/main/resources/assets/dashs_camp_mod/blockstates/right_multi_block_2.json",
+          "src/main/resources/assets/dashs_camp_mod/models/block/right_multi_block_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -88,8 +105,9 @@
     "en_us": {
       "item_group.dashs_camp_mod.functional_camping": "Functional Camping",
       "item.dashs_camp_mod.white_fabric": "White Fabric",
-      "item.dashs_camp_mod.grill_coal": "Grill Coal",
-      "item.dashs_camp_mod.left_multi_block_1": "Left Multi Block 1"
+      "item.dashs_camp_mod.grill_coal": "Center Grill",
+      "item.dashs_camp_mod.left_multi_block_1": "Left Grill",
+      "item.dashs_camp_mod.right_multi_block_2": "Right Grill"
     }
   },
   "metadata": {

@@ -6,7 +6,7 @@
     "0": "dashs_camp_mod:block/centermultiblocktexture-external",
     "log": "dashs_camp_mod:block/campfire_log",
     "2_lit_log": "dashs_camp_mod:block/campfire_log_lit",
-    "2_fire": "dashs_camp_mod:block/campfire_fire"
+    "2_fire": "minecraft:block/resin_block"
   },
   "render_type": "solid"
 }

@@ -85,7 +85,7 @@ public class GrillCoalBlockEntity extends RandomizableContainerBlockEntity imple
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Grill Coal");
+		return Component.literal("Center Grill");
 	}
 
 	@Override
