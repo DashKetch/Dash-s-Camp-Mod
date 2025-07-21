@@ -20,5 +20,6 @@ public class DashsCampModModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.dashs_camp_mod.functional_camping")).icon(() -> new ItemStack(Items.FISHING_ROD)).displayItems((parameters, tabData) -> {
 				tabData.accept(DashsCampModModItems.WHITE_FABRIC.get());
 				tabData.accept(DashsCampModModBlocks.GRILL_COAL.get().asItem());
+				tabData.accept(DashsCampModModBlocks.LEFT_MULTI_BLOCK_1.get().asItem());
 			}).build());
 }

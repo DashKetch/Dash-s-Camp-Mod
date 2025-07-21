@@ -24,8 +24,13 @@ public class GrillCoalBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public boolean propagatesSkylightDown(BlockState state) {
+		return true;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state) {
-		return 15;
+		return 0;
 	}
 
 	@Override

@@ -1,13 +1,12 @@
 {
-  "parent": "block/cube",
+  "parent": "dashs_camp_mod:custom/centermultiblock",
   "textures": {
-    "down": "minecraft:block/coal_block",
-    "up": "minecraft:block/cauldron_top",
-    "north": "minecraft:block/coal_block",
-    "east": "minecraft:block/coal_block",
-    "south": "minecraft:block/coal_block",
-    "west": "minecraft:block/coal_block",
-    "particle": "minecraft:block/raw_iron_block"
+    "all": "minecraft:block/coal_block",
+    "particle": "minecraft:block/raw_iron_block",
+    "0": "dashs_camp_mod:block/centermultiblocktexture-external",
+    "log": "dashs_camp_mod:block/campfire_log",
+    "2_lit_log": "dashs_camp_mod:block/campfire_log_lit",
+    "2_fire": "dashs_camp_mod:block/campfire_fire"
   },
-  "render_type": "cutout"
+  "render_type": "solid"
 }

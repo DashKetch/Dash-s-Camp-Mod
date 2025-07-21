@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "centermultiblocktexture-external",
+        "log": "campfire_log",
+        "2_lit_log": "campfire_log_lit",
+        "2_fire": "campfire_fire"
+      },
+      "name": "default"
+    }
+  }
+}
