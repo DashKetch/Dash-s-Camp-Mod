@@ -5,7 +5,7 @@
         "0": "centermultiblocktexture-external",
         "log": "campfire_log",
         "2_lit_log": "campfire_log_lit",
-        "2_fire": "campfire_fire"
+        "2_fire": "minecraft:resin_block"
       },
       "name": "default"
     }
