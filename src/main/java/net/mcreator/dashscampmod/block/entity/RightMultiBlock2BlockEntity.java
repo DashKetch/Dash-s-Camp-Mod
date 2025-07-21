@@ -80,7 +80,7 @@ public class RightMultiBlock2BlockEntity extends RandomizableContainerBlockEntit
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Left Grill");
+		return Component.literal("Right Grill");
 	}
 
 	@Override

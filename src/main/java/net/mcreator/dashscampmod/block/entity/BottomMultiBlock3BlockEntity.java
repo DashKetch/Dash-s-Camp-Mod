@@ -80,7 +80,7 @@ public class BottomMultiBlock3BlockEntity extends RandomizableContainerBlockEnti
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Left Grill");
+		return Component.literal("Bottom Grill");
 	}
 
 	@Override
