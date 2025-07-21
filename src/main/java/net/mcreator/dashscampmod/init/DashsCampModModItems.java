@@ -20,12 +20,6 @@ public class DashsCampModModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(DashsCampModMod.MODID);
 	public static final DeferredItem<Item> WHITE_FABRIC = register("white_fabric", WhiteFabricItem::new);
 	public static final DeferredItem<Item> BOTTOM_GRILL_COAL = block(DashsCampModModBlocks.BOTTOM_GRILL_COAL, new Item.Properties().stacksTo(1));
-	public static final DeferredItem<Item> LEFT_MULTI_BLOCK_1 = block(DashsCampModModBlocks.LEFT_MULTI_BLOCK_1);
-	public static final DeferredItem<Item> RIGHT_MULTI_BLOCK_2 = block(DashsCampModModBlocks.RIGHT_MULTI_BLOCK_2);
-	public static final DeferredItem<Item> LEFT_MULTI_BLOCK_CORE_1 = block(DashsCampModModBlocks.LEFT_MULTI_BLOCK_CORE_1);
-	public static final DeferredItem<Item> RIGHT_MULTI_BLOCK_CORE_2 = block(DashsCampModModBlocks.RIGHT_MULTI_BLOCK_CORE_2);
-	public static final DeferredItem<Item> CENTER_MULTI_BLOCK_3 = block(DashsCampModModBlocks.CENTER_MULTI_BLOCK_3);
-	public static final DeferredItem<Item> CENTER_MULTI_BLOCK_CORE_3 = block(DashsCampModModBlocks.CENTER_MULTI_BLOCK_CORE_3);
 
 	// Start of user code block custom items
 	// End of user code block custom items

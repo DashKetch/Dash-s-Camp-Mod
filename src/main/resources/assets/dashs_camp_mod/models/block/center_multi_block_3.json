@@ -1,9 +1,0 @@
-{
-  "parent": "dashs_camp_mod:custom/bottommultiblock-3",
-  "textures": {
-    "all": "minecraft:block/wildflowers_stem",
-    "particle": "minecraft:block/smooth_stone",
-    "0": "dashs_camp_mod:block/bottommultiblock-3_texture"
-  },
-  "render_type": "solid"
-}
