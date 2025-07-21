@@ -1,9 +1,0 @@
-{
-  "parent": "dashs_camp_mod:custom/rightmultiblock-2",
-  "textures": {
-    "all": "minecraft:block/wildflowers_stem",
-    "particle": "minecraft:block/wildflowers_stem",
-    "0": "dashs_camp_mod:block/multiblocktexture-2"
-  },
-  "render_type": "solid"
-}
